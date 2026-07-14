@@ -150,7 +150,7 @@ const Footer = () => {
               </a>
               <a
                 className="group relative hover:text-white transition-colors duration-300"
-                title="Coming soon"
+                title='By accessing or using the Services provided by JobPortal ("Company," "we," "our," or "us"), you agree to be bound by these Terms and Services ("Terms"). If you do not agree to these Terms, you must discontinue use of the Services.'
               >
                 <span className="relative z-10">Terms of Service</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
