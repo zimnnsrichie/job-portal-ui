@@ -143,7 +143,7 @@ const Footer = () => {
             <div className="flex flex-wrap justify-center md:justify-start gap-6 text-sm text-gray-400 mb-6 md:mb-0">
               <a
                 className="group relative hover:text-white transition-colors duration-300"
-                title="Coming soon"
+                title='JobPortal ("Company," "we," "our," or "us") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard information when you use our website, application, products, and services (collectively, the "Services"). By using our Services, you agree to the collection and use of information in accordance with this Privacy Policy.'
               >
                 <span className="relative z-10">Privacy Policy</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
