@@ -164,6 +164,7 @@ const Footer = () => {
               </a>
               <Link
                 to="/contact"
+                title="Have a question or need help? Get in touch with our support team and we'll respond within 24-48 hours."
                 className="group relative hover:text-white transition-colors duration-300"
               >
                 <span className="relative z-10">Contact Us</span>
