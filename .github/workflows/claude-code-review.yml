@@ -38,6 +38,20 @@ jobs:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{github.token}} # To communicate the progress back to GitHub
           track_progess: true
+          # prompt: |
+          #   REPO: ${{ github.repository }}
+          #   PR NUMBER: ${{ github.event.pull_request }}
+
+          #   Please review this pull request and provide feedback on:
+          #   - Code quality and best practices
+          #   - Potential bugs and issues
+          #   - Performance considerations
+          #   - Security concerns
+          #   - Test coverage
+
+          #   Use the repository's Claude.md file for guidance on style and conventions. Be constructive and helpful in your feedback.
+
+          #   Use `gh pr comment` with your bash tool to leave your review as comment on the PR.
           plugin_marketplaces: "https://github.com/anthropics/claude-code.git"
           plugins: "code-review@claude-code-plugins"
           prompt: "/code-review:code-review ${{ github.repository }}/pull/${{ github.event.pull_request.number }}"
